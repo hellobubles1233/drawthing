@@ -2,34 +2,36 @@
 /* These cannot be dynamically prepended with `EXCALIDRAW_ASSET_PATH`. */
 /* WARN: The following content is replaced during excalidraw-app build  */
 
+/* Google Fonts: Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @font-face {
-  font-family: "Assistant";
-  src: url(../fonts/Assistant/Assistant-Regular.woff2) format("woff2");
+  font-family: "Inter";
+    font-style: normal;
   font-weight: 400;
-  style: normal;
-  display: swap;
+  font-display: swap;
+    src: local("Inter"), url("https://fonts.gstatic.com/s/inter/v12/UcCO3FwrKZ4gNAkAMif3_w.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Assistant";
-  src: url(../fonts/Assistant/Assistant-Medium.woff2) format("woff2");
+  font-family: "Inter";
+    font-style: normal;
   font-weight: 500;
-  style: normal;
-  display: swap;
+  font-display: swap;
+    src: local("Inter Medium"), url("https://fonts.gstatic.com/s/inter/v12/UcCO3FwrKZ4gNAkAOyf3_w.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Assistant";
-  src: url(../fonts/Assistant/Assistant-SemiBold.woff2) format("woff2");
+  font-family: "Inter";
+    font-style: normal;
   font-weight: 600;
-  style: normal;
-  display: swap;
+  font-display: swap;
+    src: local("Inter SemiBold"), url("https://fonts.gstatic.com/s/inter/v12/UcCO3FwrKZ4gNAkANif3_w.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "Assistant";
-  src: url(../fonts/Assistant/Assistant-Bold.woff2) format("woff2");
+  font-family: "Inter";
+    font-style: normal;
   font-weight: 700;
-  style: normal;
-  display: swap;
+  font-display: swap;
+    src: local("Inter Bold"), url("https://fonts.gstatic.com/s/inter/v12/UcCO3FwrKZ4gNAkAPCf3_w.woff2") format("woff2");
 }
